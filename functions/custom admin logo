@@ -4,8 +4,8 @@ function cutom_login_logo() {
 echo "<style type=\"text/css\">
 body.login div#login h1 a {
 background-image: url(".get_bloginfo('template_directory')."/files/img/logo.jpg);
--webkit-background-size: auto;
-background-size: auto;
+-webkit-background-size: contain;
+background-size: contain;
 margin: 0 0 25px;
 width: 320px;
 }
