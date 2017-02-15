@@ -1,0 +1,16 @@
+<?php
+// filtrar post types na busca
+function includeSearch($query) {
+ 
+	if ($query->is_search) {
+	 
+   //inclui os custom posts types na query
+		$query->set('post_type', array('post', 'produtos'));
+		//$query->set('tag', '%'.get_search_query().'%');
+	 
+	}
+	 return $query;
+	 
+	}
+add_filter('pre_get_posts','includeSearch');
+?>
