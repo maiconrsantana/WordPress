@@ -1,0 +1,133 @@
+main.a-rayovac{
+    .slide-text > h1, .slide-text > p{
+        color: $color-black;
+    }
+
+    .slider{
+    	@media screen and (max-width: 768px){
+    		margin-top: 0px;
+    	}
+
+    	p {
+    		font-weight:300;
+    	}
+    }
+    
+	.header{
+
+		.banner{
+			min-height: 600px; width: 100%; background-size: cover;
+			.box-description {
+			    margin-top: 80%;
+			    > h1{
+			    	text-align:left;
+			    }
+
+			    > p{
+			    	text-align:left;
+                    font-size: 18px;
+			    }
+			}
+		}
+	}
+    
+	.middle{
+        .img1{
+            padding-top: 50px;
+        }
+        .right{
+            .col-md-12{
+                padding-top: 50px;
+
+                > h1{
+
+                    text-align:left;
+                }
+
+                > p {
+                    font-size: 18px;
+                    text-align:left;
+                    max-width: 400px;
+                }
+            }
+        }
+	}
+    
+    @media screen and (max-width: 580px){
+        //texto 100% abaixo de 580px
+        .row.right{
+            .col-xs-6{
+                width:100%;
+            }
+        }
+    }
+
+	.big-numbers{
+		.container{
+            .container-center{
+                background-color: $color-black;
+                margin-top: 20px;
+                padding: 60px 120px 60px 120px;
+            }
+            
+			.row{
+				padding: 60px 120px 60px 120px;
+
+				@media screen and (max-width:768px){
+
+				padding: 60px 0 60px 0px;
+
+				}
+
+				.big{
+					padding-left:20px;
+                    p{
+					color: #ffffff;
+				    padding: 0 50px 0 50px;
+				    text-align: left;
+				    font-size: 18px;
+
+					    &:first-child{
+						    font-size: 50px;
+						    color: #00a2ff;
+					    }
+                        span{
+                            width: 100%;
+                        }
+					}
+				}
+			}
+		}
+				
+	}
+
+	.bottom{
+		h3{
+			font-size:20px;
+			text-align:left;
+		}
+		p{
+			text-align:left;
+			font-size:18px;
+		}
+
+		.left{
+			padding-top: 13%;
+			padding-right: 15%;
+
+			> p{
+				padding-bottom:20px;
+
+			}
+
+			> a{
+				color:#000000;
+				cursor:pointer;
+				text-decoration:none;
+				font-weight: 600;
+   				font-family: 'Titillium Web', sans-serif;
+                font-size: 20px;
+			}
+		}
+	}
+}

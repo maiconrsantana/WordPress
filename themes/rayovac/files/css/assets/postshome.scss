@@ -1,0 +1,76 @@
+
+/*=== Estilos Posts Home ===*/
+.slider.posts{
+    padding: 60px 120px;
+    @media  (max-width: $screen-lg-min) {
+        padding: 60px 0px;
+    }
+
+
+    
+    .control-round{
+        .carousel-control{
+            top: 223px;  
+            
+        }
+    }
+    
+    .bs-slider {
+        overflow: visible;
+        max-height: 1000px;
+        position: relative;
+        
+        .slide-image{
+            max-height: 420px;
+        }
+    }
+    .slide-text{
+        position: relative;
+        background-color: white;
+        margin: 0;
+        max-width: none;
+        padding: 10px 14%;
+        > h1{
+            color: $color-black;
+            margin-bottom: 20px;
+        }
+        > p{
+            color: $color-black;
+            font-weight:300;
+        }
+        a{
+            &.default{
+                font-size: 18px;
+                font-weight: 800;
+                color: $color-black;
+                &:after{
+                    content: '';
+                    width: 33px;
+                    height: 18px;
+                    background: url('files/img/icon-dark.gif') center no-repeat;
+                    position: absolute;
+                    display: inline-block;
+                    bottom: 12px;
+                }
+            }
+        }
+    }
+}
+
+.bottom.slider.container.posts{
+
+    @media screen and (max-width: 768px){
+
+        padding:30px 0px !important;
+        margin-top: 0px !important;
+        }
+
+    }
+
+    .slider.middle{
+
+        margin-top: 20px !important;
+
+    }
+
+/*=== FIM Estilos Posts Home ===*/

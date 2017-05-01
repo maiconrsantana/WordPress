@@ -1,0 +1,60 @@
+/*=== Estilos FAQ ===*/
+@media (min-width: $screen-md-min){
+    .buttons.container.faq{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+}
+}
+
+.faq{
+    .btn_see_more{
+        margin-top: 40px;
+        &:after{
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            left: calc(50% - 48px);
+        }
+    }
+}
+
+.indice{
+    padding-top: 35px;
+    
+    h4{
+        color: $color-blue;
+        font-size: 16px;
+        cursor: pointer;
+        cursor: hand;  /*IE*/
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.respostas{
+    padding-top: 35px;
+    
+    .item{
+        &.active{
+            color: $color-blue;
+        }
+        .faq_answer{
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 15px;
+            margin-bottom: 15px;   
+        }
+
+        p{
+            font-size: 18px;
+        }
+    }
+}
+/*=== Fim Estilos FAQ ===*/

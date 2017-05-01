@@ -1,0 +1,120 @@
+main.contato{
+    .contato-container{
+        background-color: $color-white;
+        margin: 0 5.633%;
+        position: relative;
+        top: -50px;
+        padding-top: 25px;
+        
+                    a{
+                &.default{
+                    font-size: 18px;
+                    font-weight: 800;
+                    color: $color-black;
+                    &:after{
+                        content: '';
+                        width: 33px;
+                        height: 28px;
+                        background: url('files/img/icon-dark.gif') center no-repeat;
+                        position: absolute;
+                        display: inline-block;
+                    }
+                }
+            }
+    }
+    .slide-text{
+        max-width: 500px;
+        h1{
+            font-weight:200;
+        }
+        p{
+            font-size: 28px;
+            font-weight:200;
+        }
+    }
+    
+    h2{
+        font-size: 38px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+
+    .img-responsive{
+        margin: 0 auto;
+    }
+    
+    
+	form{
+        margin-top: 25px;
+        .col-md-6{
+            border: solid 1px $color-black;
+            height: 30px;
+            width: 100%;
+            margin: 10px 0;
+            
+            @media  (min-width: $screen-md-min){
+                width: 48%;    
+                &:nth-child(odd){
+                    margin-left: 2%
+                }
+                &:nth-child(even){
+                    margin-right: 2%
+                }
+            }
+        }
+        
+        .col-md-12{
+            border: solid 1px $color-black;
+            
+            @media  (max-width: $screen-md-min){
+                width: 100%;
+            }
+        }
+        
+        .txt{
+            margin-top: 10px;
+            border: 0;
+            cursor:pointer;
+        }
+        
+        input, select, textarea{
+            &::placeholder{
+                color: $color-black;
+            }
+            &::-webkit-input-placeholder{
+                color: $color-black;
+            }
+        }
+        
+        .btn{
+            background-color: $color-white;
+            font-size: 20px;
+            font-weight: 800;
+        }
+    }
+        
+}
+
+
+@media  (max-width: 768px) {
+    main.contato{
+        .contato-container{
+            background-color: $color-white;
+            margin: 0;
+            padding: 15px;
+        }
+        .slide-text{
+            max-width: none;
+            padding: 10px 34px 15px 34px;
+            p{
+                font-size: 18px;
+            }
+            h1{
+                font-size: 38px;
+                line-height: 1.1;
+            }
+        }
+    }
+}

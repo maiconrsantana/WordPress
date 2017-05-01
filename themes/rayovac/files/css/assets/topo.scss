@@ -1,0 +1,287 @@
+
+/*=== Estilos Topo ===*/
+
+.menu-container{
+    background-color: $color-black;
+    margin: 0 5.633%;
+    
+    @media (min-width: 1340px){
+        margin: 0 auto;
+        max-width: 1180px;
+    }
+}
+
+/* search field */
+.search-bar {
+    height: 70px;
+    padding: 0 30px;
+}
+
+#navbar-mobile{
+    height:370px;
+    overflow:scroll;
+    overflow-x:hidden;
+    //display: none;
+}
+
+.menu-container-desktop{
+    display: none;
+}
+
+
+.navbar-default {
+    font-size: 16px;
+    font-weight: 600;
+    .nav-logo{
+        img{
+            padding-top: 40px;
+        }
+    }
+    .navbar-collapse{
+        border-color: $color-black;
+    }
+    .navbar-form {
+        border: none;
+        margin-top: 25px;
+        .glyphicon{
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1); 
+            font-size: 20px;
+        }
+        .stylish-input-group {
+            width: 230px;
+            border-bottom: solid 1px $color-white;
+            color: $color-white;
+            
+            .input-group-addon{
+                width: 20px;
+            }
+        }
+    }
+}
+
+
+.navbar-form .input-group > .form-control, .stylish-input-group .input-group-addon{
+    border: none;
+    background: none;
+    color: $color-grey;
+}
+.stylish-input-group .form-control{
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+    height: 30px;
+    
+    &::placeholder{
+        color: $color-grey;
+    }
+    &::-webkit-input-placeholder{
+        color: $color-grey;
+    }
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.navbar-form{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*--- search field ---*/
+
+.navbar-default{
+    background: none;
+    border: none;
+    
+    .navbar-toggle:focus{
+        background-color: $color-black !important;
+    }
+    .navbar-toggle:hover{
+        background-color: $color-black !important;
+    }
+    
+    .navbar-nav{ 
+        display: flex;
+        justify-content: flex-end;
+        > li{ 
+            padding-right: 55px;
+            > a{
+                color: $color-grey;
+                padding: 15px 0;
+                &:hover{
+                    color: $color-blue !important;
+                    border-bottom: solid 5px $color-blue;
+                    padding-bottom: 10px;
+                }
+                &.active{
+                    color: $color-blue;
+                    border-bottom: solid 5px $color-blue;
+                    padding-bottom: 10px;
+                }
+                &:focus{
+                    color: $color-grey;
+                }
+            }
+        }
+                
+    }
+    
+    /*submenu*/
+    .dropdown-full-menu{
+        display: none;
+        float: left;
+        width: 100%;
+        padding: 30px;
+        border-top: solid 1px $color-blue;
+        li{
+            list-style: none !important;    
+        }
+        .dropdown-title {
+            float: left;
+            color: white;
+            padding-left: 70px;
+            font-size: 28px; 
+            font-weight: 400;
+        }
+        .dropdown-content{
+            float: right;
+            padding: 5px 0 0 0;
+            .dropdown-list{
+                float: left;
+                
+                .dropdown-header{
+                    font-weight: 800;
+                    font-size: 16px;
+                    color: $color-white;
+                    padding: 0;
+                }
+                li{
+                    padding-bottom: 10px !important;
+                    font-weight: 400;
+                    a{
+                        color: $color-grey;
+                        &:hover{
+                            color: $color-white !important;
+                            text-decoration: none;
+                        }
+                        font-size: 15.3px;
+                        display:block;
+                        white-space: pre-line;
+                        
+                        &.featured{
+                            max-width:160px;
+                            
+                            &:hover{
+                                text-decoration:underline;
+                            }
+                        }
+                    }
+                }
+            }
+            //redimensionar largura das listas para exibir chamada
+            &.featured li a{
+                max-width: 80px;
+            }
+        }
+    }
+    
+    .dropdown-menu{
+        width: 100%;
+        position: relative;
+        background-color: $color-black;
+        
+        .dropdown-header{
+            color: $color-grey;
+            font-size: 15px;
+        }
+        li{
+            a{
+                color: $color-grey;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/*------------------------------------------------------*/
+/* RESPONSIVE
+/*------------------------------------------------------*/
+
+/*---------- MEDIA MAX 1024px ----------*/
+@media  (max-width: $screen-lg-min) {
+
+    .navbar-default{
+        .navbar-form{
+            margin-top: 0;
+            .stylish-input-group{
+                width: 100%;
+            }
+        }
+        .navbar-toggle{
+            .icon-bar{
+                background-color: $color-white;
+            }
+            &:hover{
+               background-color: $color-grey; 
+            }
+            &:focus{
+                background-color: $color-grey;
+            }
+        }
+        .nav-logo img{
+            padding-top: 0;
+        }
+        .navbar-nav{
+            display: block;
+            margin: 0;
+            padding: 10px;
+            > li {
+                padding: 0;
+            }
+        }
+        
+        .dropdown-menu{ 
+            
+            .dropdown-header a{
+                font-weight: 800 !important;
+                padding-left: 5px !important;
+            }
+                
+            .divider{
+                 background-color: $color-dark-grey;
+            }
+
+            li{
+                a{
+                    color: $color-grey !important;
+                    font-size: 16px;
+                    padding-left: 40px !important;
+                    &:hover{
+                        color: $color-white !important;
+                        background-color: $color-black !important;
+                    }
+                }
+            }
+        }
+        
+    }
+    .search-bar {
+        height: 53px;
+    }
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover, 
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: $color-blue;
+        background: none;
+        border-bottom: solid 5px $color-blue;
+    }
+    
+    .navbar-default .navbar-nav > li > a {
+        padding: 13px 0;
+    }
+    
+}
+
+
+
+/*=== FIM Estilos Topo ===*/

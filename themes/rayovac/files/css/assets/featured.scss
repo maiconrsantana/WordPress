@@ -1,0 +1,55 @@
+
+/*=== Estilos Featured ===*/
+.featured{
+    .row{
+        
+        .col-md-5{
+            padding: 40px 40px 0 40px;
+            overflow: hidden;
+            max-height: 458px;
+            
+            span{
+                font-size: 16px;
+                color: $color-red;
+                
+                a{
+                    color: $color-red;
+                }
+            }
+            
+            h2{
+                font-size: 38px;
+                margin:0;
+                font-weight: 300;
+            }
+            p{
+                margin: 13px 0;
+                font-size: 18px
+            }
+            
+            img{
+                padding-top: 20px;
+                margin:0 auto;
+            }
+            
+            a{
+                &.default{
+                    font-size: 18px;
+                    font-weight: 800;
+                    color: $color-black;
+                    &:after{
+                        content: '';
+                        width: 33px;
+                        height: 28px;
+                        background: url('files/img/icon-dark.gif') center no-repeat;
+                        position: absolute;
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+/*=== FIM Estilos Featured ===*/

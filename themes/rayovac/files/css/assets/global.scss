@@ -1,0 +1,57 @@
+/*=== Estilos Globais ===*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+}
+
+body.single, body.page-id-172, body.page-id-268 {
+    margin-top: 120px;
+    @media  (max-width: $screen-lg-min) {
+        margin-top: 100px;
+    }
+}
+
+body.page, body.home{
+    @media  (max-width: $screen-sm-min) {
+        margin-top: 120px;
+    }
+}
+
+.container{
+    max-width: 1245px;
+    width: 100%;
+    padding: 0;
+}
+
+.loading{
+    display: none;
+}
+
+.row {
+    margin: 0;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+    padding-bottom: 15px;
+}
+
+.modal-dialog {
+    width: 50%;
+    video{
+        width: 100%;
+    }
+}
+
+//clearfix
+.clearfix:before, .clearfix:after {
+    content: "";    
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/*=== FIM Estilos globais ===*/
