@@ -1,0 +1,89 @@
+/*=== Estilos Globais ===*/
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    background: $color-bg url(#{$url-img}/background.jpg) no-repeat top center; 
+}
+
+//ajueste menu mobile
+#navbarNavDropdown{
+    z-index: 99;
+}
+
+//title defautl
+h2.custom_amag{
+    font-size: 24px;
+    text-transform: uppercase;
+    
+    &:after{
+        content: '';
+        border-top: solid 3px $color-green;
+        width: 110px;
+        display: block;
+    }
+}
+
+.call-to-action{
+    margin: 35px 0 0 0;
+    background: url(#{$url-img}/bg_call2action.jpg) no-repeat top center;
+    height: 270px;
+    padding: 35px 0;
+    
+    h3{
+        font-size: 30px;
+        color: $color-white;
+        font-weight: 800px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .btn{
+        margin: 15px auto;
+        background-color: $color-green;
+        border-color: $color-green;
+        border-radius: 0;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 15px 50px;
+        display: block;
+        width: 190px;
+        
+        &:focus{
+            color: $color-white;
+            box-shadow: none;
+        }
+    }
+}
+
+//custom container
+.container-main{
+    min-height: 500px;
+}
+@media (min-width: $screen-lg-min){
+    .container{
+        width: 1024px;
+    }
+}
+@media (max-width: $screen-md-min){
+    .container-full{
+        width: 100%;
+        background-color: $color-white;
+        max-height: 65px;
+    }
+}
+
+// Mixin itself
+.clearfix{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.no-padding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/*=== FIM Estilos globais ===*/

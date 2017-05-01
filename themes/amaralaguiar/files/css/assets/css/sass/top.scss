@@ -1,0 +1,81 @@
+/*=== Estilos Topo ===*/
+
+.navbar-light{
+    
+    .navbar-nav{
+        @media (min-width: $screen-md-min){
+            .active > .nav-link{
+                background: url(#{$url-img}/icon_active-menu.png) no-repeat bottom center;
+                color: $color-dark-grey;
+            }
+        }
+        .nav-link{
+            font-size: 13px;
+            font-weight: 600;
+            color: $color-dark-grey;
+            border-bottom: solid 1px $color-bg;
+            text-transform: uppercase;
+            padding: 16px;
+            
+            @media (min-width: $screen-md-min){
+                color: $color-white;
+                border-bottom: none;
+                
+                &:hover{
+                    background: url(#{$url-img}/icon_active-menu.png) no-repeat bottom center;
+                    color: $color-dark-grey;
+                    background-color: none;
+                }
+            }
+        }
+        
+        .nav-link-top{
+            color: $color-dark-grey;
+            padding:  15px 15px 15px 5px;
+            font-size: 15px;
+            &:before{
+                content: '';
+                display: block;
+                width: 19px;
+                height: 24px;
+                float: left;
+            }
+        }
+        
+        .nav-item:nth-child(1){
+            .nav-link-top{ 
+                &:before{
+                    background: url(#{$url-img}/icon_telephone.png) no-repeat bottom center;
+                }
+            }
+        }
+        
+        .nav-item:nth-child(2){
+            .nav-link-top{ 
+                text-decoration: underline;
+                &:before{
+                    background: url(#{$url-img}/icon_phone.png) no-repeat bottom center;
+                }
+            }
+        }
+    }
+}
+
+
+// ajustes tela < 1024px
+@media (min-width: $screen-md-min){
+    .navbar{
+        height: 140px;
+    }
+}
+@media (max-width: $screen-md-min){
+    .navbar-brand img{
+        max-height: 45px;
+    }
+
+    .navbar-collapse{
+        background-color: $color-white;
+    }
+}
+
+/*=== FIM Estilos Topo ===*/

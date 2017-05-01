@@ -1,0 +1,62 @@
+/* estilos página de atuação */
+.main-atuacao{
+    background-color: $color-white;
+    padding-top: 20px;
+    
+    @media (min-width: $screen-md-min){
+        .col-lg-6:first-child{
+            padding-right: 40px;
+        }
+        .col-lg-6:last-child{
+            padding-left: 40px;
+        }
+    }
+    
+    p{
+        margin-bottom: 1.5rem;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    
+    .custom_amag{
+        margin-bottom: 1.5rem;
+    }
+    .container{
+        .img-fluid{
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.lista-atuacao{
+    background: $color-bg url(#{$url-img}/bg_atuacao.jpg) no-repeat top center;
+    background-size: 100% 100%;
+    color: $color-dark-grey;
+    
+    .bg-image{
+        min-height: 160px;
+        background: no-repeat center right;
+        background-size: contain;
+    }
+    
+    h3{
+        font-size: 24px;
+        text-transform: uppercase;
+        padding-top: 30px;
+    }
+    
+    li{
+        font-size: 15px;
+    }
+    
+    .d-xs-flex .row{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:$screen-md-min){
+    .lista-atuacao .bg-image{
+        background-size: 0;
+    }
+}

@@ -1,0 +1,141 @@
+// main slider
+.ibox{
+    .sliderContent{
+        width: 80%;
+    }  
+} 
+
+
+// carousel atuação
+.jcarousel-title{
+    .control{
+        padding: 0 10px;
+    }
+}
+.jcarousel-wrapper{
+    margin-top: 20px;
+    
+    .jcarousel{
+        .content{
+            position: absolute;
+            width: 497px;
+            padding: 30px;
+            color: $color-white;
+            text-align: center;
+            
+            .icon{
+                background-color: $color-green;
+                border-radius: 50%;
+                margin: 0 auto;
+                width: 60px;
+                height: 60px;
+                padding: 10px;
+                
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            .title{
+                font-size: 36px;
+                margin: 30px 0;
+                text-transform: uppercase;
+            }
+            .desc{
+                font-size: 14px;
+            }
+        }
+        img {
+            width: 497px;
+        }
+    }
+    
+    .btn{
+        margin: 15px auto;
+        background-color: $color-green;
+        border-color: $color-green;
+        border-radius: 0;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 15px 50px;
+        display: block;
+        width: 190px;
+        
+        &:focus{
+            color: $color-white;
+            box-shadow: none;
+        }
+    }
+}
+
+// ajustes tela < 1024px
+@media (max-width: $screen-md-min){
+    .jcarousel-wrapper{
+        .jcarousel{
+            .content{
+                width: 690px;
+                padding: 100px;
+            }
+            img {
+                width: 690px;
+            }
+        }
+    }
+}
+
+// ajustes tela < 768px
+@media (max-width: $screen-sm-min){
+    .jcarousel-wrapper{
+
+        .jcarousel{
+            .content{
+                padding: 60px;
+                width: 510px;
+            }
+            img {
+                width: 510px;
+            }
+        }
+    }
+}
+
+// ajustes tela < 480px
+@media (max-width: $screen-xs-min){
+    .jcarousel-wrapper{
+
+        .jcarousel{
+            .content{
+                padding: 5px;
+                width: 420px;
+                .title{
+                    font-size: 28px;
+                    margin: 15px 0;
+                    text-transform: uppercase;
+                }
+                .desc{
+                    font-size: 11px;
+                }
+            }
+            img {
+                width: 420px;
+            }
+        }
+
+    }
+}
+
+// ajustes tela < 350px
+@media (max-width: $screen-xs-min){
+    .jcarousel-wrapper{
+
+        .jcarousel{
+            .content{
+                width: 300px;
+            }
+            img {
+                width: 300px;
+            }
+        }
+    }
+}
