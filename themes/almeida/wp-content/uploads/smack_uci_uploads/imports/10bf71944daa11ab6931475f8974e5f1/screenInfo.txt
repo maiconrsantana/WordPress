@@ -1,1 +1,0 @@
-a:1:{s:32:"10bf71944daa11ab6931475f8974e5f1";a:1:{s:11:"import_file";a:8:{s:11:"import_mode";s:9:"new_items";s:8:"posttype";s:5:"Posts";s:13:"uploaded_name";s:28:"publicacoes_completo_csv.csv";s:9:"file_name";s:30:"publicacoes_completo_csv-1.csv";s:14:"file_extension";s:3:"csv";s:13:"import_method";s:7:"desktop";s:12:"file_version";s:1:"1";s:10:"upload_max";s:3:"64M";}}}
