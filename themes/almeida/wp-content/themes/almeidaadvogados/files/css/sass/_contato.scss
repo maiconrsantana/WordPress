@@ -1,0 +1,67 @@
+.contato{
+
+    .form_contato{
+        .input_box{
+            
+            @media(min-width: 992px){
+                width: 48%;
+                float: left;
+
+                &:nth-child(odd){
+                    margin-right: 2%;
+                }
+
+                &:nth-child(even){
+                    margin-left: 2%;
+                }
+            }
+            
+            &.full{
+                width: 100%;
+                margin: 0;
+            }
+
+            
+            input[type="text"], input[type="number"], textarea{
+                    border: 1px solid #74706f;
+                    border-radius: 18px;
+                    width: 100%;
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    padding: 10px 15px;
+                    font-size: 0.7em;
+            }
+            
+            textarea{
+                min-height: 180px;
+                resize: none;
+            }
+            
+            &.send{
+                margin-top: 20px;
+                @media(max-width: 991px){
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+
+                
+                input[type="submit"]{
+                    background-color: inherit;
+                    width: auto;
+                    margin: auto;
+                    float: right;
+                    cursor: pointer;
+                    font-size: 12px;
+                    
+                    &:hover{
+                        background-color: $color-links;
+                    }
+                }
+                
+            }
+        }
+        label.check{
+            font-size: 13px;
+        }
+    }
+}

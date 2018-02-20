@@ -1,0 +1,486 @@
+/* Detalhe */
+
+.single-equipe {
+    
+    .row.bg{
+        background-color: $color-bg-section;
+    }
+    .row.bg-artigos{
+        background-color: $color-bg-artigos;
+    }
+    .last-news{
+        margin-top: 0;
+    }
+    .top{
+        padding: 40px 60px;
+        margin: 60px 0 0 0;
+        
+        @media(max-width: $screen-desktop){ 
+            //text-align: center;
+            margin: 20px 0 0 0;
+            padding: 0;
+            [class^='col-lg']{
+                padding: 0;
+            }
+        }
+        img{
+            position: absolute;
+            left: 0;
+            
+            z-index: 999;
+            top: 0px;
+            padding: 0 5%;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            
+            transition-property: top;
+            transition-duration: 0.3s;
+            transition-timing-function: linear;
+            
+            
+            @media(max-width: $screen-desktop){ 
+                padding: 30px 0; 
+                position: relative;
+			    top: 0px;
+			    left: auto;
+			    width: 100%;
+            }
+        }
+        h1{
+            font-size: 50px;
+            font-weight: 300;
+        }
+        h3{
+            color: $color-number-featured;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        
+        a{
+            font-size: 18px;
+            color: $color-links;
+            font-weight: 500;
+            display: block;
+        }
+    }
+    
+    .section-citacao{
+        @media(min-width: $screen-desktop){
+            min-height: 320px;
+        }
+    }
+    
+    .citacao{
+        font-size: 22px;
+        font-style: italic;
+        color: $color-grey-text;
+        font-weight: 300;
+        line-height: 24px;
+        &:before{
+            content: '"';
+            font-size: 35px;
+        }
+        &:after{
+            content: '"';
+            font-size: 35px;
+            margin-left: -5px;
+        }
+    }
+    
+    .first-line{
+        margin-top: 20px;
+        
+        .destaques{
+            position: absolute;
+            padding-bottom: inherit;
+            
+            @media(max-width: $screen-desktop){ 
+                position: relative;
+                padding-bottom: 60px;
+            }
+        }
+    }
+    
+    ul.associacoes{
+        margin-left: 15px;
+        
+        li{
+            padding-bottom: 10px;
+            color: $color-number-featured;
+        }
+        
+        p{
+            //color: $color-text-default;
+        }
+    }
+    
+    .bg-section{
+        background-color: $color-bg-section;
+        padding: 40px 60px;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: 0;
+
+        @media(max-width: $screen-desktop){ 
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            .row{
+                margin: 0;
+            }
+            [class^='col-lg']{
+                padding: 0;
+            }
+        }
+        
+        h4{
+            color: $color-number-featured;
+            font-weight: 400;
+        }
+        .row{
+            padding-left: 50px;
+            padding-right: 50px;
+            
+             @media(max-width: $screen-desktop){ 
+                padding: 0;
+            }
+        }
+    }
+    
+}
+
+.equipe_index.quote_title{
+   
+    /*position: absolute;
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 60%;
+    
+    @media(max-width: 991px){   
+        width: 85%;
+        text-align: center;
+        height: 100%;
+        margin: 0;
+    }*/
+    
+    small, br{
+        display: none;
+    }
+    
+    
+}
+
+.container-fluid.equipe{
+    padding-top: 90px;
+    
+    &.single{
+        padding-top: 0;
+        padding-bottom: 85px;
+    }
+
+    .content_search_equipe{
+        width: 100% !important;
+
+        @media(min-width: 1201px){
+            width: 83.333333% !important;
+        }
+    }
+}
+
+.content_search_equipe{
+    
+    #box_equipe{
+        border: 0;
+        border-bottom: 1px solid $color-box-bg;
+        margin-left: 15px;
+        width: 300px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 400;
+        color: $color-links;
+        
+        @media(max-width: 1200px){
+             width: 180px;
+        }
+        
+        @media(max-width: 768px){
+            width: 90%;
+            margin-bottom: 30px;
+            margin-left: 0;
+        }
+        
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: $color-links;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+          color: $color-links;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+          color: $color-links;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+          color: $color-links;
+        }
+        
+    }
+    
+    .fa-search{
+        margin-left: -20px;
+    }
+    
+    a.filter_equipe{
+        float: left;
+        text-transform: uppercase;
+        color: $color-links;
+        margin: 0 15px;
+        font-weight: 400;
+        font-size: 16px;
+        cursor: pointer;
+
+        @media(max-width: 460px){
+            float: left;
+            width: 100%;
+            padding-bottom: 10px;
+            text-align: left;
+        }
+
+        &:hover{
+            color: $color-grey-text;
+        }
+    }
+    
+    .content{
+        float: left;
+        //margin-bottom: 15px;
+
+        &.main{
+            //min-height: 400px;
+        }
+        
+        .img{
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        .cargo{
+            font-size: 14px;
+            padding-top: 15px;
+            color: $color-p;
+            text-transform: uppercase;
+        }
+        .nome{
+            min-height: 40px;
+            padding-bottom: 10px;
+            a{
+                font-size: 28px;
+                color: $color-p;
+                font-weight: 300;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+.equipe.seniors{
+    h3{
+        padding-bottom: 35px;
+    }
+    
+    .content_search_equipe{
+        .nome{
+            text-transform: uppercase;
+            a{
+                color: $color-links;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 18px !important;
+            }
+        }
+    }
+}
+
+/* Vagas */
+
+.vagas_index.quote_title{
+    /*position: absolute;
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 60%;
+    
+    
+    @media(max-width: 991px){   
+        width: 100%;
+        margin: auto;
+    }
+    */
+    small, br{
+        display: none;
+    }
+}
+
+.box-setores.vagas{
+
+    .links-more{
+        font-size: 12px !important;
+    }
+
+    @media(max-width: 991px){
+        text-align: center;
+        padding: 0;
+        min-height: 500px;
+        display: block;
+        float: left;
+        padding-bottom: 60px;
+
+        .content_setores{
+            display: block;
+            float: left;
+        }
+    }
+    
+    @media(min-width: 1200px){
+        .titles-3{
+            padding: 40px;
+            &:first-child{
+                padding-left: 0;
+            }
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+    @media(min-width: 1550px){
+        .titles-3{
+            padding: 55px;
+        }
+    }
+    
+    small{
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 400;
+        color: $color-text-default;
+    }
+    
+    .links-more{
+        font-size: 12px;
+        margin-top: 10px;
+        float: left;
+        
+        @media(max-width: 991px){
+            width: 360px;
+            margin-left: calc(50% - 180px);
+            margin-bottom: 35px;
+        }
+        @media (max-width: 420px){
+            width: 100%;
+            margin: auto;
+        }
+    }
+    
+}
+
+.content.vagas{
+    width: 95% !important;
+    
+    h1{
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+    .form_curriculo{
+        .input_box{
+            width: 100%;
+            float: left;
+            
+            @media(min-width: 992px){
+                width: 48%;
+               
+
+                &:nth-child(odd){
+                    margin-right: 2%;
+                }
+
+                &:nth-child(even){
+                    margin-left: 2%;
+                }
+            }
+            
+            input[type="text"], select{
+                background-color: $color-box-bg;
+                border: 0;
+                border-bottom: 1px solid $color-text-default;
+                width: 100%;
+                margin-top: 30px;
+                text-transform: uppercase;
+                border-radius: 0;
+            }
+
+            select{
+                 border: 1px solid $color-text-default;
+                 border-radius: 0;
+            }
+
+            ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+              color: black;
+            }
+            ::-moz-placeholder { /* Firefox 19+ */
+              color: black;
+            }
+            :-ms-input-placeholder { /* IE 10+ */
+              color: black;
+            }
+            :-moz-placeholder { /* Firefox 18- */
+              color: black;
+            }
+            
+            input[type="file"]{
+                display: none;
+            }
+            
+            a{
+                margin-top: 30px;
+                display: block;
+                text-decoration: underline;
+                color: $color-links;
+                text-transform: uppercase;
+                
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+            
+            &.send{
+                margin-top: 20px;
+                @media(max-width: 991px){
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+
+                
+                input[type="submit"]{
+                    width: auto;
+                    margin: auto;
+                    cursor: pointer;
+                    background-color: inherit;
+                    text-transform: uppercase;
+                    padding: 15px 60px;
+                    font-size: 12px;
+
+                    &:hover{
+                        background-color: $color-links;
+                    }
+                }
+                
+                &:nth-child(odd){
+                    justify-content: center;
+                    display: flex;
+                }
+            }
+        }
+        label.check{
+            font-size: 13px;
+        }
+    }
+}

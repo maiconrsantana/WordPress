@@ -1,0 +1,44 @@
+[13-Oct-2017 12:23:38 UTC] PHP Notice:  Undefined offset: 1 in /home/dyret697/public_html/almeida/wp-content/plugins/formulario-contato/formulario-contato.php on line 83
+[13-Oct-2017 12:23:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dyret697/public_html/almeida/wp-content/plugins/formulario-contato/formulario-contato.php:73) in /home/dyret697/public_html/almeida/wp-includes/pluggable.php on line 1210
+[15-Oct-2017 17:15:03 UTC] PHP Notice:  Undefined variable: data in /home/dyret697/public_html/almeida/wp-content/plugins/formulario-contato/formulario-contato.php on line 154
+[15-Oct-2017 17:15:03 UTC] PHP Notice:  Trying to get property of non-object in /home/dyret697/public_html/almeida/wp-content/plugins/formulario-contato/formulario-contato.php on line 154
+[15-Oct-2017 17:15:03 UTC] PHP Notice:  Undefined variable: data in /home/dyret697/public_html/almeida/wp-content/plugins/formulario-contato/formulario-contato.php on line 155
+[15-Oct-2017 17:15:03 UTC] PHP Notice:  Trying to get property of non-object in /home/dyret697/public_html/almeida/wp-content/plugins/formulario-contato/formulario-contato.php on line 155
+[15-Oct-2017 17:18:17 UTC] PHP Notice:  Undefined variable: data in /home/dyret697/public_html/almeida/wp-content/plugins/formulario-contato/formulario-contato.php on line 154
+[15-Oct-2017 17:18:17 UTC] PHP Notice:  Trying to get property of non-object in /home/dyret697/public_html/almeida/wp-content/plugins/formulario-contato/formulario-contato.php on line 154
+[15-Oct-2017 17:18:17 UTC] PHP Notice:  Undefined variable: data in /home/dyret697/public_html/almeida/wp-content/plugins/formulario-contato/formulario-contato.php on line 155
+[15-Oct-2017 17:18:17 UTC] PHP Notice:  Trying to get property of non-object in /home/dyret697/public_html/almeida/wp-content/plugins/formulario-contato/formulario-contato.php on line 155
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: from_email_field in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 124
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: from_name_field in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 131
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 145
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 152
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 153
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 154
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 161
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 168
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 169
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 176
+[15-Oct-2017 17:22:44 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp.php on line 269
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: from_email_field in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 124
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: from_name_field in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 131
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 145
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 152
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 153
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 154
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 161
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 168
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 169
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 176
+[15-Oct-2017 17:22:53 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp.php on line 269
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: from_email_field in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 124
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: from_name_field in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 131
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 145
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 152
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 153
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 154
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 161
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 168
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 169
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp-admin-menu.php on line 176
+[15-Oct-2017 17:23:31 UTC] PHP Notice:  Undefined index: smtp_settings in /home/dyret697/public_html/almeida/wp-content/plugins/easy-wp-smtp/easy-wp-smtp.php on line 269
+[14-Dec-2017 16:49:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dyret697/public_html/almeida/wp-content/plugins/post-types-order/include/class.options.php:40) in /home/dyret697/public_html/almeida/wp-admin/includes/misc.php on line 1114

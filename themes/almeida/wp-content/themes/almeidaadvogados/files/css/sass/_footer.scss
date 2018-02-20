@@ -1,0 +1,125 @@
+footer {
+    margin: 0 0 60px 0;
+
+    @media(max-width: 991px){
+        display: block;
+        float: left;
+    }
+}
+
+.home footer {
+	margin: 120px 0 60px 0;	
+}
+
+.foot-menu {
+	height: 490px;
+	background-color: #b9ae9c;
+}
+.foot-menu .logo-foot {
+	height: 80px;
+	background-image: url(#{$url-img}/logo-aabr-footer.png);
+	background-repeat: no-repeat;
+	//padding-top: 60px;
+	//padding-bottom: 30px;
+	background-size: contain;
+}
+.foot-menu .links-foot li {
+	list-style-type: none;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0;
+
+	@media(min-width: 1290px){
+		font-size: 16px;
+		line-height: 26px;
+	}
+	
+	&.link{
+		display: none;
+		small{
+			line-height: 16px;
+			padding-left: 15px;
+		}
+	}
+}
+.foot-menu .links-foot a {
+	color: $color-p;
+	font-weight: 500;
+	cursor: pointer;
+}
+.foot-menu .links-foot a:hover {
+	color: #7c0a2f;
+	text-decoration: none;
+}
+.foot-locations {
+	height: 490px;
+	background-color: #d0c5af;
+	font-size: 0.65em;
+	padding-top: 185px;
+}
+.foot-locations h3 {
+	color: $color-p;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+@media(max-width: 991px){
+     .foot-menu, .foot-locations {
+     	display: block;
+     	float: left;
+     }
+}
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+	.foot-menu {
+		height: 580px;
+		background-color: #b9ae9c;
+	}
+	.foot-locations {
+		height: 580px;
+		.col-xl-5-custom{
+			-ms-flex: 0 0 33.333333333%;
+			flex: 0 0 33.333333333%;
+			max-width: 33.333333333%;
+		}
+	}
+}
+
+@media (min-width: 1081px) and (max-width: 1199px) {
+    .foot-menu {
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .foot-locations {
+        height: auto;
+    }
+}
+
+@media (max-width: 1080px) {
+    .foot-menu {
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .foot-locations {
+		height: auto;
+		padding-bottom: 60px;
+		padding-top: 150px;
+	}
+}
+
+@media (min-width: 993px) and (max-width: 1440px) {
+    .foot-locations {
+		padding-bottom: 50px;
+        
+        .padding{
+            padding: 0 30px;
+        }
+	}
+}
+
+@media (max-width: 1200px) {
+	.foot-locations {
+		padding-top: 90px;
+	}	
+}
